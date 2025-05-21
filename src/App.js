@@ -41,7 +41,7 @@ function App() {
         <label>Código do Lote:</label>
         <input type="text" name="lote" value={produto.lote} onChange={handleChange} required />
         
-        <label>Data de Validade:</label>
+        <label>Dataa de Validade:</label>
         <input type="date" name="validade" value={produto.validade} onChange={handleChange} required />
         
         <label>Quantidade:</label>
