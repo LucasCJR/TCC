@@ -32,13 +32,13 @@ function App() {
       <h1>Cadastro de Produto</h1>
       <form onSubmit={handleSubmit}>
 
-        <label>Nome do Produto:</label>
+        <label>Produto:</label>
         <input type="text" name="nome" value={produto.nome} onChange={handleChange} required />
 
         <label>Código do Produto:</label>
         <input type="text" name="codigo" value={produto.codigo} onChange={handleChange} required />
         
-        <label>Código do Lote:</label>
+        <label>Lote:</label>
         <input type="text" name="lote" value={produto.lote} onChange={handleChange} required />
         
         <label>Data de Validade:</label>
